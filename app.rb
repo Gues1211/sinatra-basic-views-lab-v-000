@@ -1,8 +1,8 @@
 require_relative 'config/environment'
 
 class App < Sinatra::Base
-    
-    ger '/' do
+
+    get '/' do
       erb :index
     end
 end
